@@ -1,0 +1,9 @@
+*
+!.gitignore
+!dune
+!dune-project
+!input.ml
+!main.ml
+!sat.ml
+!smt.ml
+!README.md
