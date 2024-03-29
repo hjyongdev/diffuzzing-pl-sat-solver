@@ -11,7 +11,7 @@ You can test your own SAT solver written in OCaml by using this project on a UNI
     1. `dune build`
     2. `dune exec -- ./main.exe` or `./_build/default/main.exe`
   
-By default, 100 random formulas are used in testing. But you can input the number of formulas into the executable, e.g., `dune exec -- ./main.exe 1234`.
+By default, 100 random formulas are used in testing. But you can input the number of formulas for testing into the executable, e.g., `dune exec -- ./main.exe 1234`.
 ## Tunable parameters
 There are some tunable parameters in **input.ml**.
 - `use_truth_value`: A Boolean flag that decides whether the truth values (`True` & `False`) are included in a generated formula or not. If true, they are included.  
