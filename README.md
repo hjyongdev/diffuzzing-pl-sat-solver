@@ -1,4 +1,3 @@
-# Random Input Differential Testing for Propositional Logic SAT Solver in OCaml
 You can test your own SAT solver written in OCaml by using this project on a UNIX system.
 ## How it works
 1. Generate grammatically correct propositional logic formulas randomly.
